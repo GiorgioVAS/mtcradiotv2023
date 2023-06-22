@@ -1,0 +1,47 @@
+.listado1{
+    font-family: FontAwesome;
+    cursor: pointer;
+}
+
+.listado1 li{
+    padding: 10px 0px;
+    
+}
+.listado1 li a{
+    font-size: 1.5em;
+}
+
+.listado2{
+    font-family: FontAwesome;
+    cursor: pointer;
+}
+
+.listado2 li{
+    padding: 10px 0px;
+}
+
+.listado2 li a{
+    font-size: 1.5em;
+}
+
+.submenu li a{
+    font-size: 1em;
+    color: white;
+}
+.submenu-menu li a{
+    font-size: 0.9em;
+    color: silver;
+}
+
+@media (max-width: 768px) {
+    .contenedor-bloque{
+        display: block;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .listado1 li a{
+        font-size: 25px;
+    }
+}

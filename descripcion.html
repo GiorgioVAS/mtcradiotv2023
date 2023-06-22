@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>Quadex - News</title>
+	<!-- =============== META =============== -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- =============== STYLE =============== -->
+	<link rel="stylesheet" href="css/critical.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+	<link rel="stylesheet" href="css/descripcion.css">
+	<style>
+		.preloader-active .preloader-cover{
+			height: 4000px;
+			transform: translate(-50%,-50%) rotate(45deg);
+		}
+		.preloader-cover{
+			height: 0;
+			width: 4000px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%) rotate(45deg);
+			background: #131213;
+			position: fixed;
+			z-index: 999;
+			overflow: hidden;
+			transition: .8s cubic-bezier(0.65, 0.05, 0.36, 1) .3s;
+			overflow: hidden;
+			will-change: top, left;
+		}
+	</style>
+</head>
+
+<body id="home" class="home preloader-active" style="background-image: url(img/bg-body.svg);">
+	<!--=============== PRELOADER ===============-->
+	<div class="preloader-cover">
+		<div class="preloader">
+			<div class="ajax-loader">
+				<div class="ajax-loader-logo">
+					<div class="ajax-loader-circle">
+						<svg class="ajax-loader-circle-spinner" viewBox="0 0 500 500" xml:space="preserve">
+							<circle cx="250" cy="250" r="239" />
+						</svg>
+					</div>
+					<div class="ajax-loader-letters">Q</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============= PRELOADER END =============-->
+
+	<!--=============== HEADER ===============-->
+	<header class="header">
+		<div class="container">
+			<a href="#" class="nav-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<div class="row align-items-center">
+				<!--=============== LOGO ===============-->
+				<div class="col-12 col-sm-6 col-lg-2 logo-item">
+					<a href="index.html" class="logo">
+					<!--<img src="img/logo.svg" alt="logo">-->
+						<img src="img/logo3.png" alt="logo">
+					</a>
+				</div>
+				<!--============= LOGO END =============-->
+				<div class="col-8 col-md-12 col-lg-9 nav-menu-cover">
+					<!--============= NAV MENU =============-->
+					<nav class="nav-menu">
+						<ul class="nav-list">
+							<li >
+								<a href="index.html">Inicio</a>
+							</li>
+							
+								<li>
+								<a href="help.html">Ayuda</i></a>
+								</li>
+							
+							<!--<li class="dropdown">
+								<a href="#">pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="blog.html">News</a></li>
+									<li><a href="pravicy-policy.html">Pravicy policy</a></li>
+									<li><a href="404.html">404</a></li>
+								</ul>
+							-->
+							</li>
+							<li><a href="nosotros.html">Nosotros</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+							<li><a href="contacto.html">Contáctenos</a></li>
+							<li><a href="politica.html">Politicas de privacidad</a></li>
+							<li class="dropdown">
+								<a href="productos.html">Productos<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul>
+									<li>
+										<a href="FM-Modulos.html">FM MODULOS & RF PARTES</a>
+										<ul >
+											<li class="dropdown"><a href="Excitador.html">FM-PLL EXCITADOR</a></li>
+											<li><a href="Amplificador.html">FM AMPLIF. MODULOS</a></li>
+											<li><a href="Sett-Ampli.html">SET PLL + MODULOS</a></li>
+											<li><a href="Filtro-armonico.html">FILTRO ARMONICO FM</a></li>
+											<li><a href="Fuentes-switchin.html">FUENTES SWITCHING</a></li>
+											<li><a href="componentes.html">COMPONENTES</a></li>
+										</ul>
+									</li>
+									<li><a href="Transmisores.html">Transmisores FM</a>
+										<ul >
+											<li class="dropdown"><a href="Transmisorfm.html">TRANSMISOR FM</a></li>
+											<li><a href="antenas.html">ANTENAS & DIVISORES</a></li>
+											<li><a href="cablesconec.html">CABLES CONNECTORES</a></li>
+											<li><a href="combobroad.html">COMBO BROADCAST TX</a></li>
+										</ul>
+									</li>
+									<li><a href="Instrumento.html">Instrumento & medicion</a>
+										<ul >
+											<li class="dropdown"><a href="vatimetro.html">VATIMETRO, TAPONES</li>
+											<li><a href="osciloscopio.html">OSCILOSCOPIO</a></li>
+											<li><a href="multimetros.html">MULTIMETROS</a></li>
+											
+										</ul>
+									</li>
+									<li><a href="Estudioaudio.html">ESTUDIO DE AUIDO</a>
+										<ul >
+											<li class="dropdown"><a href="consolamesclador.html">CONSOLA & MEZCLADOR</a></li>
+											<li><a href="microfonos.html">MICROFONOS AUDIFONOS</a></li>
+											<li><a href="compresoraudio.html">COMPRESOR AUDIO</a></li>
+											<li><a href="comboestudio.html">COMBO ESTUDIO AUDIO</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!--=========== NAV MENU END ===========-->
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--============= HEADER END =============-->
+
+	<!--============== PAGE-TITLE ==============-->
+	<div class="page-title" style="background-image: url(img/portadacompra.jpg);">
+		<div class="container">
+			<h1 class="title">PLL MONO /STEREO 5W</h1>			
+		</div>
+	</div>
+
+	<!--============ MIGA DE PAN ============-->	
+	<div class="breadcrumbs  col-12 col-md-12 col-lg-12">
+				<ul>
+					<li class="breadcrumbs-item"><a href="index.html">Inicio</a></li>
+					<li class="breadcrumbs-item"><a href="productos.html">Productos</a></li>
+					<li class="breadcrumbs-item"><a href="FM-Modulos.html">Fm modulos & RF partes</a></li>
+					<li class="breadcrumbs-item"><a href="Excitador.html">Fm-pll excitador</a></li>
+					<li class="breadcrumbs-item"><a href="descripcion.html">Pll monostereo 5W</a></li>
+				</ul>
+			</div>
+	<!--================ Contenedor de descripcion ================-->
+	<section class="s-news">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-lg-8 blog-cover">
+					<div class="post-item-cover">
+						<div class="post-header">
+							<div class="post-thumbnail">
+								<a href="sindle-blog.html">
+									<img src="img/Imagencompra.png" alt="img">
+								</a>
+							</div>
+							<div class="post-header-info">
+								<h4 class="title">PLL MONO /STEREO 5W</h4>
+							</div>
+						</div>
+
+						<!---=========== Botones para abrir y cerrar ==============-->
+						<div class="col-12 col-xl-12 col-md-12 col-lg-12 btn-des ">
+							<ul class="tab-nav">
+								<li class="active"><a class="btn tab-wrap" id="Mostrardescripcion">Descripcion</a></li>
+								<li><a class="btn" id="Mostrarcaracteristicas">Características</a></li>
+								<li><a class="btn" id="Mostrarespecificaciones">Especificaciones</a></li>
+								<li><a class="btn" id="Mostrardescargas">Descargas</a></li>
+							</ul>
+						</div>
+						<!---=========== Texto con descripcion ==============-->
+						<div class="post-content ">
+							<div class="text" id="descripcion">
+								<p>Pantalla gráfica, potencia constante FM sin ajuste 5w de energía limpia !</p>
+								<p> Nuestro nuevo producto PLL MONO/STEREO 5w , atendiendo a las necesidades inmediatas del mercado , para amplificar a los Módulos Pallets existentes FM 87.5 108 Mhz , desde 50w hasta 1800w que necesitan potencias de excitación desde 500mw a 5 watts. Eficiente y necesario logrando reducir considerablemente los costos y mano de obra , olvídese de los engorrosos ensamblados (PLL CAF ,coder stereo, pre driver , driver , filtro de armónico + mas cableado + disipador etc.) , ahora todo en un kit profesional alta performance utilizando un sistema moderno de excitación 5w LDMOS junto con nuestro ya reconocido y respetado oscilador PLL, Estamos orgullosos de presentar el mejor PLL MONO/STEREO de 5w al mercado con altas prestaciones técnicas. 
+									Ahora Puede visualizar en la pantalla grafica de nuestro PLL MONO/STEREO 5w, Las potencia RF Externas FORWARD y REFLEJ, mediante Conector MOLEX, para poder ajustar el módulo a cualquier amplificador de potencia RF (de 0 watt hasta 1000w). Solo ajuste la sensibilidad del voltaje proveniente del acoplador direccional de sus amplificadores pallets a su gusto ( 0 a 5 volts máximo ). Logrando asemejar la potencia de su watimetro con la visualización en nuestra pantalla PLL MONO/STEREO 5w. En conclusión Ud. Podrá visualizar la potencia de excitación y la potencia de final de su Pallets hasta 1000w. Realmente hermoso!
+                                    Dispone una salida de Control sistema de monitorización alojada en PCB (muestra RF),  para conexión analizador espectro y frecuencímetro. Lo puede llevar al panel frontal delantero de su Gabinete.
+                                    PLL MONO/STEREO 5w viene junto con una tarjeta expansora y visualizada por el display control Grafica, que puede colocarle dentro de un panel frontal pudiendo observar y manipular cualquier situación del mismo.</p>
+                                <p>Diversas configuraciones dentro de este kits potente a un precio muy competitivo dentro del mercado. Ideal para Ing., tecnicos y radio armadores, la solución perfecta, relación CALIDAD/PRECIO. Estamos seguros que nuestro producto colmara sus expectativas inmediatas , la devolución completa de su dinero.</p>
+								<!--
+								<blockquote>
+									<p>“At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias”</p>
+									<cite><a href="#">Kerry Ashman</a></cite>
+								</blockquote>
+								<p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided.</p>
+								-->
+							</div>
+							<div class="text" id="caracteristicas">
+								<ul>
+									<li>Salida 5w (toda la banda, control automático potencia, ultra estable )</li>
+									<li>Pantalla Grafica full parámetros (Frecuencia, Potencia, Mon Modulación Temp etc.)</li>
+									<li>Hecho para excitar a pallets FM-LDMOS 300w 500w 1000w 1800w.</li>
+									<li>Ingreso Potencia y ROE externa, visualizando en la pantalla Grafica </li>
+									<li>Excelente Performance pureza espectral, trabajo ciclo continuo</li>
+									<li>Regulación Potencia digital 500mw ~ 5 vatios  0,2 dB: RF salida</li>
+									<li>Monitoreo y Alarma contra antena, sobre voltaje, temperatura</li>
+									<li>filtro de armónico paso bajo abordo -60db</li>
+									<li>Una sola entrada Voltaje 15 dc.</li>
+									<li>Mono / Stereo Intercambiable</li>
+									<li>Conector MCX + cables conexión incluido</li>
+									<li>Nivel Audio Left Right regulable</li>
+									<li>Incluido Coder Stereo 45Db separación</li>
+									<li>Opción Entrada MPX audio</li>
+									<li>Monitor RF out</li>
+								</ul>
+							</div>
+							<div class="text" id="especificaciones">
+								<table>
+									<tbody>
+										<th colspan="2">RF</th>			
+										<tr>
+											<td>Potencia</td>
+											<td>600mw - 5w</td>
+										</tr>
+										<tr>
+											<td>Conector RF salida</td>
+											<td>MCX gold</td>
+										</tr>
+										<tr>
+											<td>armónicos</td>
+											<td>>60 dBc</td>
+										</tr>
+										<tr>
+											<td>Espurias</td>
+											<td>>75 dBc</td>
+										</tr>
+										<tr>
+											<td>ROE VSWR</td>
+											<td>Entre  2.1</td>
+										</tr>
+										<tr>
+											<td>Frecuencia</td>
+											<td>87.5 - 108 MHz</td>
+										</tr>
+										<tr>
+											<td>Frecuencia pasos</td>
+											<td>Pasos en100kHz  LCD  y 50khz a pedido</td>
+										</tr>
+										<tr>
+											<td>Frecuencia selección</td>
+											<td>Sistema Menpu vía pantalla grafica</td>
+										</tr>
+										<tr>
+											<td>RF Estabilidad</td>
+											<td>Control Automatico de Potencia</td>
+										</tr>
+										<tr>
+											<td>Estabilidad Frecuencia</td>
+											<td>+/- 200 Hz (ajuste fino)</td>
+										</tr>
+										<tr>
+											<td>Voltaje Requerido</td>
+											<td>15 volts</td>
+										</tr>
+										<tr>
+											<td>Corriente Máxima</td>
+											<td>1 Amperio</td>
+										</tr>
+										<tr>
+											<td>MPX entrada nivel</td>
+											<td>-10db a  +10dB  (ajustable)</td>
+										</tr>
+										<tr>
+											<td>S.N.R.</td>
+											<td>Relación señal ruido  >80dB</td>
+										</tr>
+										<tr>
+											<td>Control Temperatura</td>
+											<td>Pasos en 1 grado Celsius</td>
+										</tr>
+										<tr>
+											<td>Dimensiones</td>
+											<td>Largo 145mm x Ancho 105mm</td>
+										</tr>
+										<th colspan="2">STEREO</th>	
+										<tr>
+											<td>Generación MPX</td>
+											<td>ANALOGO</td>
+										</tr>
+										<tr>
+											<td>Piloto</td>
+											<td>IC Directa 19 kHz 38 kHz</td>
+										</tr>
+										<tr>
+											<td>Piloto  generaci�n</td>
+											<td>Microprocesador generador  (oversampled)</td>
+										</tr>	
+										<tr>
+											<td>Salida nivel</td>
+											<td>(BNC) 0dB</td>
+										</tr>
+										<tr>
+											<td>MPX respuesta de entrada</td>
+											<td>+/- 0.4 dB 20 Hz a 100 kHz</td>
+										</tr>
+										<tr>
+											<td>Separación Stereo</td>
+											<td>>45dB (20Hz-15kHz)</td>
+										</tr>
+
+										<th colspan="2">ENTRADA RF EXTERNA</th>
+										<tr>
+											<td>RF Entrada máximo</td>
+											<td>1000 watts</td>
+										</tr>
+										<tr>
+											<td>Conector entrada</td>
+											<td>MOLEX 3 PIN</td>
+										</tr>
+										<tr>
+											<td>Nivel Voltaje mínimo-máximo </td>
+											<td>Desde 100mv hasta 5 volts máximo</td>
+										</tr>
+										<tr>
+											<td>Rango Control</td>
+											<td>Ajustable trimpot</td>
+										</tr>
+										<tr>
+											<td>Potencia Directa</td>
+											<td>0 volts - 5 volts</td>
+										</tr>
+										<tr>
+											<td>Potencia Reflejada</td>
+											<td>0 volts - 5 volts</td>
+										</tr>
+
+										<th colspan="2">Tarjeta Expansora</th>
+										<tr>
+											<td>Maniobras</td>
+											<td>3 botones pulsadores ,</td>
+										</tr>
+										<tr>
+											<td>Pantalla</td>
+											<td>128x32 Display grafico</td>
+										</tr>
+										<tr>
+											<td>Sistema Control</td>
+											<td>VIA PIC Micro controlador</td>
+										</tr>
+										<tr>
+											<td>Dimensiones</td>
+											<td>Largo 122mm Ancho 46mm</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+							<div class="text archivos" id="descargas">
+								<div class="img-descargas">
+									<a href="archivos/manual_pll_stereo_5w_sp.pdf" download><i class='bx bxs-file-pdf' style='color:#ffffff'></i><p>Manual PLL MONO /STEREO 5W Español </p></a>
+									<br>
+									<a href="archivos/manual_pll_stereo_5w_en.pdf" download><i class='bx bxs-file-pdf' style='color:#ffffff'></i><p>Manual PLL MONO /STEREO 5W Ingles</p></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--========= S-RELATED-PRODUCTS =========-->
+	<section class="s-related-products">
+		<h2>Todos los productos</h2>
+		<div class="container">
+			<div class="row">
+				<!--========== CONTENIDO 1 DE LA LISTA DE PRODUCTOS========-->
+				<a href="descripcion.html">
+				<div class="contenido1">
+					<ul class="contenidodescripcion">
+
+					<li class="bloque-imagen">
+						<img src="img/pllmonostereo.png" alt="img">
+					</li>
+					<li class="parrafo">
+						<p>PLL MONO /STEREO 5W</p>
+						<p>Pantalla gráfica, potencia constante FM sin ajuste 5w de energía limpia!</p>
+					</li>
+					<li class="price1">
+						<span class="new-price">295$</span>
+					</li>
+					</ul>
+				</div>
+				</a>
+				<!--========== CONTENIDO 2 DE LA LISTA DE PRODUCTOS========-->
+				<a href="descripcion.html">
+				<div class="contenido1 ">
+					<ul class="contenidodescripcion">
+						
+						<li class="bloque-imagen">
+							<img src="img/pllmonolcd_mini.gif" alt="img">
+						</li>
+						
+						<li class="parrafo">
+							<p>MTC FM EXCITER + PLL 1W</p>
+							<p>Diseño totalmente compacto e innovador la actuación RF y AUDIO</p>
+						</li>
+						<li class="price2">
+							<span class="new-price">159$</span>
+						</li>
+					</ul>
+				</div>
+				</a>
+				<!--========== CONTENIDO 3 DE LA LISTA DE PRODUCTOS========-->
+				<a href="descripcion.html"><div class="contenido1">
+					<ul class="contenidodescripcion">
+						
+						<li class="bloque-imagen">
+							<img src="img/pllstereolcd.gif" alt="img">
+						</li>
+						
+						<li class="parrafo">
+							<p>MTC FM EXCITER + PLL 1W MONO</p>
+							<p>Extrema solidez y versatilidad incluido Un Coder Stereo, de buena calidad y bajo costo</p>
+						</li>
+						<li class="price3">
+							<span class="new-price">179$</span>
+						</li>
+					</ul>
+				</div></a>
+				<!--========== CONTENIDO 4 DE LA LISTA DE PRODUCTOS========-->
+				<a href="descripcion.html">
+				<div class="contenido1">
+					<ul class="contenidodescripcion">
+						
+						<li class="bloque-imagen">
+							<img src="img/pll-dsp_stereo.jpg" alt="img">
+						</li>
+						<li class="parrafo">
+							<p>PROFESIONAL 1W+DSP STEREO LIMITER</p>
+							<p>De la misma serie de Transmisores TXPRO, viene el PROFESIONAL 1w+DSP STEREO.</p>
+						</li>
+						<li class="price4">
+							<span class="new-price">390$</span>
+						</li>
+					</ul>
+				</div>
+				</a>
+				<!-- =========== FIN DE LOS CONENIDOS==========-->
+			</div>
+		</div>
+	</section>
+	<!--======= S-RELATED-PRODUCTS END =======-->
+					</div>
+
+
+					<!--=============== AUTOR-COVER ===============-->
+				
+					
+				<!--============== SIDEBAR ==============-->
+				<div class="col-12 col-lg-3 sidebar">
+					<ul class="widgets">
+						<!--=========== WIDGET-SUPPORT ===========-->
+						<li class="widget widget-support">
+							<div class="support">
+								<img src="img/suport-img.png" alt="support">
+								<div class="name">li Casey <span>support</span></div>
+								<div class="title">we can help you?</div>
+								<p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley</p>
+								<a href="contacts.html" class="btn">contact us</a>
+							</div>
+						</li>
+						<!--========= WIDGET-SUPPORT END =========-->
+						<!--=========== WIDGET-SEARCH ===========-->
+						<li class="widget widget-search">
+							<h4 class="title">search</h4>
+							<form action="/" class="search-form">
+								<input type="text" name="search" placeholder="Search...">
+								<input type="submit" value="Submit">
+							</form>
+						</li>
+						<!--========= WIDGET-SEARCH END =========-->
+						<!--=========== WIDGET-TAGS ===========-->
+						<li class="widget widget-tags">
+							<h4 class="title">Tags</h4>
+							<ul>
+								<li><a href="#">Loremiipsum</a></li>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Sitiamet</a></li>
+								<li><a href="#">Dolor</a></li>
+								<li><a href="#">Lorem</a></li>
+								<li><a href="#">Loremiipsum</a></li>
+								<li><a href="#">Dolor</a></li>
+								<li><a href="#">Sitiamet</a></li>
+							</ul>
+						</li>
+						<!--========== WIDGET-TAGS END ==========-->
+						<!--=========== WIDGET-CATEGORIES ===========-->
+						<li class="widget widget-categories">
+							<h4 class="title">categories</h4>
+							<ul>
+								<li><a href="#">Training</a></li>
+								<li><a href="#">Courses</a></li>
+								<li><a href="#">Conferences</a></li>
+								<li><a href="#">Development</a></li>
+								<li><a href="#">UI/UX Designer</a></li>
+							</ul>
+						</li>
+						<!--========== WIDGET-CATEGORIES END ==========-->
+						<!--=========== WIDGET-RECENT-POSTS ===========-->
+						<li class="widget widget-recent-posts">
+							<h4 class="title">recent blog posts</h4>
+							<ul>
+								<li>
+									<a href="#">Mobile App Design: From Beginner to Intermediate</a>
+									<div class="date">Dec 27, 2019 at 5:47 pm</div>
+								</li>
+								<li>
+									<a href="#">Et harum quidem rerum facilis est et expedita distinctio</a>
+									<div class="date">Dec 17, 2018 at 5:47 pm</div>
+								</li>
+								<li>
+									<a href="#">Nam libero tempore, cum soluta nobis est eligendi optio</a>
+									<div class="date">Dec 8, 2018 at 5:47 pm</div>
+								</li>
+							</ul>
+						</li>
+						<!--========== WIDGET-RECENT-POSTS END ==========-->
+						<!--=========== WIDGET-INSTAGRAM ===========-->
+						<li class="widget widget-instagram">
+							<h4 class="title">recent blog posts</h4>
+							<ul>
+								<li>
+									<a href="#"><img src="img/bg-3.jpg" alt="img"></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/prod-shop-7.jpg" alt="img"></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/prod-shop-8.jpg" alt="img"></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/prod-shop-6.jpg" alt="img"></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/prod-shop-5.jpg" alt="img"></a>
+								</li>
+								<li>
+									<a href="#"><img src="img/prod-4.jpg" alt="img"></a>
+								</li>
+							</ul>
+						</li>
+						<!--=========== WIDGET-INSTAGRAM END ===========-->
+						<!--=========== WIDGET-NEWSLETTER ===========-->
+						<li class="widget widget-newsletter">
+							<h4 class="title">newsletter</h4>
+							<form action="/" class="subscribe-form">
+								<input type="email" name="subscribe" placeholder="E-mail">
+								<input type="submit" value="send">
+							</form>
+						</li>
+						<li class="widget widget-archive">
+							<h4 class="title">archive</h4>
+							<ul>
+								<li><a href="#">January 2018</a></li>
+								<li><a href="#">February 2018</a></li>
+								<li><a href="#">March 2018</a></li>
+								<li><a href="#">April 2018</a></li>
+								<li><a href="#">May 2018</a></li>
+							</ul>
+						</li>
+						<!--=========== WIDGET-NEWSLETTER END ===========-->
+					</ul>
+				</div>
+				<!--============ SIDEBAR END ============-->
+			</div>
+		</div>
+	</section>
+	<!--============== S-NEWS END ==============-->
+
+	<!--================= FOOTER =================-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-3 footer-info">
+					<h5>Nosotros</h5>
+					<p>Nuestros productos están esparcidos por todo el mundo, repartiendo desde nuestra propia fábrica en PERU.</p>
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2 blok-link">
+					<h5>Contactenos</h5>
+					<!--
+					<ul>
+						<li><a href="#">DJI</a></li>
+						<li><a href="#">Parrot</a></li>
+						<li><a href="#">Hubsan</a></li>
+						<li><a href="#">Mi</a></li>
+					</ul>
+					-->
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2 blok-link">
+					<h5>Ayuda</h5>
+					<!--
+					<ul>
+						<li><a href="#">lorem ipsum</a></li>
+						<li><a href="#">dolor sit amet</a></li>
+						<li><a href="#">tempor incididunt</a></li>
+						<li><a href="#">enim ad minim</a></li>
+					</ul>
+					-->
+				</div>
+				<div class="col-12 col-sm-4 col-lg-3 blok-link">
+					<h5>POLITICA DE PRIVACIDAD</h5>
+					<!--
+					<ul>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">Documentation</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+					</ul>
+					-->
+				</div>
+				<div class="col-12 col-sm-6 col-lg-2 footer-subscribe">
+					<h5>suscribete</h5>
+					<form action="/" class="subscribe-form">
+						<input type="email" name="subscribe" placeholder="Correo">
+						<input type="submit" value="enviar">
+					</form>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-2">
+						<a href="index.html" class="logo footer-logo"><img src="img/logo3.png" alt="logo"></a>
+					</div>
+					<div class="col-12 col-md-8">
+						<ul class="footer-menu">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="help.html">Ayuda</a></li>
+							<li><a href="services.html">Nosotros</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+							<li><a href="contacto.html">Contactenos</a></li>
+							<li><a href="politica.html">Politica de Privacidad</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-2">
+						<ul class="soc-link">
+							<li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://twitter.com/mtcradiotv"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p><a class="rovadex" href="https://rovadex.com" target="_blank"> MTCbroadcast </a> © <p id="Year"> </p> . <a href="pravicy-policy.html" target="_blank">Derechos Reservados</a></p>
+			</div>
+		</div>
+	</footer>
+	<!--=============== FOOTER END ===============-->
+
+	<!--================= TO TOP =================-->
+	<a class="to-top" href="#home">
+		<i class="fa fa-chevron-up" aria-hidden="true"></i>
+		<span>
+			<img src="img/icon-tab-1.svg" alt="">
+		</span>
+	</a>
+	<!--=============== TO TOP END ===============-->
+
+	<!-- =============== STYLE =============== -->
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--=============== TEMPLATE SCRIPT ===============-->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<script src="js/abrir-cerrar.js"></script>
+	<script src="js/active.js"></script>
+</body>
+</html>

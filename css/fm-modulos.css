@@ -1,0 +1,37 @@
+.container{
+    justify-content: center;
+}
+.tab-wrap .tab-nav .prod-tabs{
+    justify-content: center;
+}
+/*Cajas principales*/
+.item .block-icon{
+    height: 70px;
+    width: 230px;
+}
+
+.item .block-icon h6{
+    font-size: 12px;
+}
+@media (min-width: 768px){
+    .item .block-icon{
+        height: 60px;
+        width: 180px;
+    }
+    
+    .item .block-icon h6{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px){
+    .item .block-icon{
+        height: 60px;
+        width: 100%;
+    }
+    
+    .item .block-icon h6{
+        font-size: 12px;
+    }
+}
+/*Fin de cajas principales*/

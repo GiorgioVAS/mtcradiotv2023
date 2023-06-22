@@ -1,0 +1,165 @@
+/*BOTONES*/
+.btn-des .btn{
+    font-size: 12px;
+}
+.btn-des .tab-nav{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.btn:hover {
+    background-color: #45a7ef;
+}
+
+/*Boton active para los bloques*/
+ul.tab-nav li.active a{
+    background-color: #45a7ef;
+}
+
+/*Fin boton active para los bloques*/
+
+/*BOTONES*/
+.text{
+    text-align: justify;
+}
+
+/*Archivos*/
+.archivos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.archivos img{
+    height: 60px;
+    width: 70px;
+}
+
+
+    
+/*Fin de Archivos*/
+.post-content{
+    padding: 30px 20px;
+}
+/*Tabla*/
+table{
+    width: 100%;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, tr, td{
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+/*Fin de la Tabla*/
+
+/*Contenido de los bloques de lista*/
+
+.bloque-lista{
+    padding: 20px 10px;
+}
+
+a .contenido1:hover{
+    background-color: #45a7ef;
+    transition: .6s ease; 
+}
+
+.contenido1{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.contenidodescripcion {
+    display: flex;
+}
+
+/*Bloque contenido para celulares y tablets*/
+@media screen and (max-width:768px ){
+    .contenidodescripcion{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .contenidodescripcion li img{
+        height: 250px;
+        width: 100%;
+    }
+    .price1{
+        position: relative;
+        right: 94px;
+    }
+
+    .price2{
+        position: relative;
+        right: 125px;
+    }
+    .price4{
+        position: relative;
+        right: 15px;
+    }
+}
+/*Fin del contenido para celulares y tablets*/
+
+/*CONTENIDO DE IMAGEN MEDIDAS Y EL PARRAFO H1 O P*/
+.bloque-imagen{
+    padding: 16px 7px;
+}
+.contenido1 img{
+    height: 80px;
+    width: 90px;
+}
+.contenido1 .parrafo{
+   padding: 16px 16px;
+   font-size: 14px;
+   color: #fff;
+   text-align: justify;
+}
+/*Fin del CONTENIDO DE IMAGEN MEDIDAS Y EL PARRAFO H1 O P*/
+
+/*Bloque de los precio $320*/
+
+.price1{
+    padding: 38px 2px;
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 108px;
+}
+.price2{
+    padding: 38px 2px;
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 140px;
+}
+.price3{
+    padding: 38px 2px;
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 12px;
+}
+.price4{
+    padding: 38px 3px;
+    color: #fff;
+    font-size: 1.2em;
+    padding-left: 32px;
+}
+/*Bloque de los precio $320*/
+
+/*Fin del contenido de los bloques de lista*/
+/*Descargas*/
+
+.img-descargas a{
+    display: flex;
+    font-size: 12px;
+}
+.img-descargas a i{
+    font-size: 50px;
+}
+.img-descargas a  p {
+    padding: 10px 20px;
+}
+/*Fin descargas*/

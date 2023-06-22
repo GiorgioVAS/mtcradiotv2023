@@ -1,0 +1,15 @@
+/*.--preguntas{
+    font-size: 1.2em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.mover{
+    padding: 15px 30px;
+}
+
+.texto1{
+    text-align: justify;
+}

@@ -1,0 +1,26 @@
+.envios{
+    padding: 0px 10px;
+}
+.envios img{
+    width: 136px;
+    height: 103px;
+}
+
+.tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.tarjetas img{
+    width: 43px;
+    height: 37px;
+}
+.botones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+.paquete{
+    font-size: 4.5rem;
+}

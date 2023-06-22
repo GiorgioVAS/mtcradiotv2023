@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>Quadex - Contacts</title>
+	<!-- =============== META =============== -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- =============== STYLE =============== -->
+	<link rel="stylesheet" href="css/critical.css">
+	<style>
+		.preloader-active .preloader-cover{
+			height: 4000px;
+			transform: translate(-50%,-50%) rotate(45deg);
+		}
+		.preloader-cover{
+			height: 0;
+			width: 4000px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%) rotate(45deg);
+			background: #131213;
+			position: fixed;
+			z-index: 999;
+			overflow: hidden;
+			transition: .8s cubic-bezier(0.65, 0.05, 0.36, 1) .3s;
+			overflow: hidden;
+			will-change: top, left;
+		}
+	</style>
+	<link rel="stylesheet" href="css/contacto.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body id="home" class="home preloader-active" style="background-image: url(img/bg-body.svg);">
+	<!--=============== PRELOADER ===============-->
+	<div class="preloader-cover">
+		<div class="preloader">
+			<div class="ajax-loader">
+				<div class="ajax-loader-logo">
+					<div class="ajax-loader-circle">
+						<svg class="ajax-loader-circle-spinner" viewBox="0 0 500 500" xml:space="preserve">
+							<circle cx="250" cy="250" r="239" />
+						</svg>
+					</div>
+					<div class="ajax-loader-letters">Q</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============= PRELOADER END =============-->
+
+	<!--================ HEADER ================-->
+	<header class="header">
+		<div class="container">
+			<a href="#" class="nav-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<div class="row align-items-center">
+				<!--=============== LOGO ===============-->
+				<div class="col-12 col-sm-6 col-lg-2 logo-item">
+					<a href="index.html" class="logo">
+<!--						<img src="img/logo.svg" alt="logo">-->
+						<img src="img/logo3.png" alt="logo">
+					</a>
+				</div>
+				<!--============= LOGO END =============-->
+				<div class="col-8 col-md-12 col-lg-9 nav-menu-cover">
+					<!--============= NAV MENU =============-->
+					<nav class="nav-menu">
+						<ul class="nav-list">
+							
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="help.html">Ayuda</i></a></li>
+							
+							<!--<li class="dropdown">
+								<a href="#">pages <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul>
+									<li><a href="services.html">Services</a></li>
+									<li><a href="blog.html">News</a></li>
+									<li><a href="pravicy-policy.html">Pravicy policy</a></li>
+									<li><a href="404.html">404</a></li>
+								</ul>
+							-->
+							</li>
+							<li><a href="nosotros.html">Nosotros</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+							<li class="active"><a href="contacto.html">Contáctenos</a></li>
+							<li><a href="politica.html">Politicas de privacidad</a></li>
+							<li class="dropdown">
+								<a href="productos.html">Productos<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul>
+									<li>
+										<a href="FM-Modulos.html">FM MODULOS & RF PARTES</a>
+										<ul >
+											<li class="dropdown"><a href="Excitador.html">FM-PLL EXCITADOR</a></li>
+											<li><a href="Amplificador.html">FM AMPLIF. MODULOS</a></li>
+											<li><a href="Sett-Ampli.html">SET PLL + MODULOS</a></li>
+											<li><a href="Filtro-armonico.html">FILTRO ARMONICO FM</a></li>
+											<li><a href="Fuentes-switchin.html">FUENTES SWITCHING</a></li>
+											<li><a href="componentes.html">COMPONENTES</a></li>
+										</ul>
+									</li>
+									<li><a href="Transmisores.html">Transmisores FM</a>
+										<ul >
+											<li class="dropdown"><a href="Transmisorfm.html">TRANSMISOR FM</a></li>
+											<li><a href="antenas.html">ANTENAS & DIVISORES</a></li>
+											<li><a href="cablesconec.html">CABLES CONNECTORES</a></li>
+											<li><a href="combobroad.html">COMBO BROADCAST TX</a></li>
+										</ul>
+									</li>
+									<li><a href="Instrumento.html">Instrumento & medicion</a>
+										<ul >
+											<li class="dropdown"><a href="vatimetro.html">VATIMETRO, TAPONES</li>
+											<li><a href="osciloscopio.html">OSCILOSCOPIO</a></li>
+											<li><a href="multimetros.html">MULTIMETROS</a></li>
+											
+										</ul>
+									</li>
+									<li><a href="Estudioaudio.html">ESTUDIO DE AUIDO</a>
+										<ul >
+											<li class="dropdown"><a href="consolamesclador.html">CONSOLA & MEZCLADOR</a></li>
+											<li><a href="microfonos.html">MICROFONOS AUDIFONOS</a></li>
+											<li><a href="compresoraudio.html">COMPRESOR AUDIO</a></li>
+											<li><a href="comboestudio.html">COMBO ESTUDIO AUDIO</a></li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</nav>
+					<!--=========== NAV MENU END ===========-->
+				</div>
+				
+				<div class="col-12 col-sm-6 col-lg-1">
+					<!--============ HEADER ICON ============-->
+					<!--<ul class="header-icon">
+						<li class="search">
+							<a class="icon" href="#">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</a>
+							<form action="#">
+								<input type="search" name="search" placeholder="Search">
+								<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</form>
+						</li>
+						<li class="favorites">
+							<a class="icon" href="#">
+								<i class="fa fa-heart" aria-hidden="true"></i>
+								<span>2</span>
+							</a>
+						</li>
+						<li>
+							<a class="icon" href="#">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a class="icon" href="#">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+				-->
+					<!--========== HEADER ICON END ==========-->
+				</div>
+			
+			</div>
+		</div>
+	</header>
+	<!--============== HEADER END ==============-->
+
+	<!--============== PAGE-TITLE ==============-->
+	<div class="page-title" style="background-image: url(img/portada_Help.jpg);">
+		<div class="container">
+			<h1 class="title">contacto</h1>
+			
+		</div>
+	</div>
+	<!--============ MIGA DE PAN ============-->
+	<div class="breadcrumbs col-12 col-md-12 col-lg-12">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li>Contactos</li>
+		</ul>
+	</div>
+	<!--============ CONTACTS-TOP ============-->
+	<section class="contacts-top about-top">
+		<div class="container">
+			<div class="row about-top-cover">
+				<div class="col-12 col-lg-6 about-img">
+					<img src="img/contacto.jpg" alt="img">
+				</div>
+				<div class="col-12 col-lg-6 about-info">
+					<h2 class="title-left">Informacion de contacto</h2>
+					<p>Para mayor información puede ponerse en contacto con nosotros a la siguiente dirección:</p>
+					<p><b style="color: #fff;">Broadcast</b><br> 
+						Oficina Central:
+						<br>
+						Calle Antonio Raimondi 281 San Jose
+						<br>
+						Bellavista Callao
+						<br>
+						LIMA PERU</p>
+					<ul class="about-cont">
+						<li>
+							<a href="tel:18004886040">
+								<i class="fa fa-phone" aria-hidden="true"></i>
+								<span>958531955</span>
+							</a>
+						</li>
+						<li>
+							<a href="mailto:dronebay@gmail.com">
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+								<span>mtcradiotv@hotmail.com</span>
+							</a>
+						</li>
+					</ul>
+					<ul class="soc-link">
+						<li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://twitter.com/mtcradiotv"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+						
+					</ul>
+				</div>
+			</div>
+			<!--============= ABOUT-TOP-BLOCK =============-->
+			<div class="about-top-block">
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<div class="about-block">
+							<div class="about-block-icon">
+								<div class="paquete">
+									<i class='bx bx-package' style='color:#2a90b9'  ></i>
+								</div>
+							</div>
+							<div class="about-block-info">
+								<h5 class="title">Envio Rapido</h5>
+								<div class="about-info-text">ENVIOS RAPIDOS A EXCELENTE PRECIO</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="about-block">
+							<div class="about-block-icon">
+								<svg width="47" height="49" viewBox="0 0 47 49" fill="#45A7EF" xmlns="http://www.w3.org/2000/svg">
+									<path d="M40.2634 18.6324V16.7485C40.2634 12.2397 38.6678 8.05 35.7752 4.94118C32.8105 1.75 28.734 0 24.2869 0H22.7325C18.2855 0 14.209 1.75 11.2443 4.94118C8.35164 8.05 6.75605 12.2397 6.75605 16.7485V18.6324C3.24576 18.8691 0.456055 21.7926 0.456055 25.3647V28.3088C0.456055 32.025 3.48253 35.0515 7.1987 35.0515H10.9972C11.6766 35.0515 12.2325 34.4956 12.2325 33.8162V19.8471C12.2325 19.1676 11.6766 18.6118 10.9972 18.6118H9.22664V16.7485C9.22664 8.60588 15.0325 2.47059 22.7222 2.47059H24.2766C31.9766 2.47059 37.7722 8.60588 37.7722 16.7485V18.6118H36.0016C35.3222 18.6118 34.7663 19.1676 34.7663 19.8471V33.8059C34.7663 34.4853 35.3222 35.0412 36.0016 35.0412H37.731C37.2266 41.4853 32.7899 42.9779 30.7311 43.3176C30.1649 41.5779 28.5281 40.3221 26.6031 40.3221H23.5149C21.1266 40.3221 19.1811 42.2676 19.1811 44.6559C19.1811 47.0441 21.1266 49 23.5149 49H26.6134C28.6105 49 30.2884 47.6412 30.7928 45.8088C31.8016 45.6647 33.3972 45.3044 34.9825 44.3779C37.2163 43.0706 39.8619 40.4044 40.2119 35.0309C43.7428 34.8147 46.5428 31.8809 46.5428 28.2985V25.3544C46.5531 21.7926 43.7737 18.8588 40.2634 18.6324ZM9.78252 32.5706H7.21929C4.86194 32.5706 2.94723 30.6559 2.94723 28.2985V25.3544C2.94723 22.9971 4.86194 21.0824 7.21929 21.0824H9.78252V32.5706ZM26.6134 46.5294H23.5149C22.4855 46.5294 21.6516 45.6956 21.6516 44.6662C21.6516 43.6368 22.4855 42.8029 23.5149 42.8029H26.6134C27.6428 42.8029 28.4766 43.6368 28.4766 44.6662C28.4766 45.6956 27.6428 46.5294 26.6134 46.5294ZM44.0825 28.2985C44.0825 30.6559 42.1678 32.5706 39.8105 32.5706H37.2472V21.0824H39.8105C42.1678 21.0824 44.0825 22.9971 44.0825 25.3544V28.2985Z"/>
+								</svg>
+							</div>
+							<div class="about-block-info">
+								<h5 class="title">Soporte 24/7</h5>
+								<div class="about-info-text">telf: 958531955</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 col-md-4">
+						<div class="about-block">
+							<div class="about-block-icon">
+								<svg width="50" height="50" viewBox="0 0 50 50" fill="#45A7EF" xmlns="http://www.w3.org/2000/svg">
+									<path d="M15.0005 5.00061H4.16699V6.66731H15.0005V5.00061Z"/>
+									<path d="M15.0005 8.33386H4.16699V10.0006H15.0005V8.33386Z"/>
+									<path d="M11.6671 11.6672H4.16699V13.3339H11.6671V11.6672Z"/>
+									<path d="M11.6671 15.0004H4.16699V16.6671H11.6671V15.0004Z"/>
+									<path d="M49.9984 48.334H-0.000976562V50.0007H49.9984V48.334Z"/>
+									<path d="M48.2445 7.12736L44.9112 0.460778C44.7057 0.0489077 44.2054 -0.118382 43.7935 0.0871364C43.7933 0.0872406 43.7931 0.0873448 43.7929 0.0874489L37.1263 3.42074C36.7144 3.62647 36.5472 4.12719 36.753 4.53906C36.9587 4.95093 37.4594 5.11812 37.8713 4.91239L42.6996 2.49992L41.3821 6.26154C35.5912 22.7538 20.6759 34.3241 3.26172 35.8329L3.40338 37.4995C21.4737 35.9341 36.9503 23.9262 42.9562 6.81153L44.3012 2.96825L46.7529 7.87235C46.9586 8.28422 47.4593 8.45141 47.8712 8.24568C48.2831 8.03996 48.4502 7.53934 48.2445 7.12736Z"/>
+									<path d="M10.0008 40.0002H4.16733C3.70712 40.0002 3.33398 40.3733 3.33398 40.8335V45.8336C3.33398 46.2938 3.70712 46.667 4.16733 46.667H10.0008C10.461 46.667 10.8341 46.2938 10.8341 45.8336V40.8335C10.8341 40.3733 10.461 40.0002 10.0008 40.0002ZM9.16741 45.0003H5.00068V41.6669H9.16741V45.0003Z"/>
+									<path d="M19.1658 37.5006H13.3324C12.8722 37.5006 12.499 37.8737 12.499 38.334V45.8341C12.499 46.2943 12.8722 46.6674 13.3324 46.6674H19.1658C19.626 46.6674 19.9992 46.2943 19.9992 45.8341V38.334C19.9992 37.8737 19.626 37.5006 19.1658 37.5006ZM18.3325 45.0007H14.1657V39.1673H18.3325V45.0007Z"/>
+									<path d="M28.3328 33.3339H22.4994C22.0391 33.3339 21.666 33.707 21.666 34.1672V45.8341C21.666 46.2943 22.0391 46.6674 22.4994 46.6674H28.3328C28.793 46.6674 29.1661 46.2943 29.1661 45.8341V34.1672C29.1661 33.707 28.793 33.3339 28.3328 33.3339ZM27.4994 45.0007H23.3327V35.0006H27.4994V45.0007Z"/>
+									<path d="M37.4998 27.5004H31.6664C31.2061 27.5004 30.833 27.8736 30.833 28.3338V45.8341C30.833 46.2943 31.2061 46.6674 31.6664 46.6674H37.4998C37.96 46.6674 38.3331 46.2943 38.3331 45.8341V28.3338C38.3331 27.8736 37.96 27.5004 37.4998 27.5004ZM36.6664 45.0007H32.4997V29.1671H36.6664V45.0007Z"/>
+									<path d="M46.6668 15.8336H40.8333C40.3731 15.8336 40 16.2067 40 16.6669V45.834C40 46.2943 40.3731 46.6674 40.8333 46.6674H46.6668C47.127 46.6674 47.5001 46.2943 47.5001 45.834V16.6669C47.5001 16.2067 47.127 15.8336 46.6668 15.8336ZM45.8334 45.0007H41.6667V17.5003H45.8334V45.0007Z"/>
+								</svg>
+							</div>
+							<div class="about-block-info">
+								<h5 class="title">Con experiencia</h5>
+								<div class="about-info-text tarjetas">
+									<img src="img/visa-card.png" alt="">
+									<img src="img/mastercard.png" alt="">
+									<img src="img/paypal.png" alt="">
+									<img src="img/american.png" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--=========== ABOUT-TOP-BLOCK END ===========-->
+		</div>
+	</section>
+	<!--========== CONTACTS-TOP END ==========-->
+
+	<!--============= S-CONTACTS =============-->
+	<section class="s-contacts s-main-contacts">
+		<div class="container">
+			<h2>Contáctanos</h2>
+			<p class="slogan">Registrandose en el formulario</p>
+			<form id='contactform' action="php/contact.php" name="contactform">
+				<ul class="form-cover">
+					<li class="inp-name"><input id="name" type="text" name="your-name" placeholder="Nombre"></li>
+					<li class="inp-phone"><input id="phone" type="tel" name="your-phone" placeholder="Celular"></li>
+					<li class="inp-email"><input id="email" type="email" name="your-email" placeholder="Correo"></li>
+					<li class="inp-text"><textarea id="comments" name="your-text" placeholder="Mensaje"></textarea></li>
+				</ul>
+				<div class="checkbox-wrap">
+					<div class="checkbox-cover">
+						<input type="checkbox">
+						<p>Al utilizar este formulario, usted acepta el almacenamiento y manejo de sus datos por parte de este sitio web.</p>
+					</div>
+				</div>
+				<div class="btn-form-cover botones">
+					<button id="#submit" type="submit" class="btn">Enviar</button>
+					<button id="#submit" type="reset" class="btn">Limpiar</button>
+				</div>
+			</form>
+			<div id="message"></div>
+		</div>
+	</section>
+	<!--=========== S-CONTACTS END ===========-->
+
+	<!--================ S-MAP ================-->
+	<section class="s-map">
+		<div id="map" class="cont-map google-map"></div>
+	</section>
+	<!--============== S-MAP END ==============-->
+
+	<!--================ FOOTER ================-->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-lg-3 footer-info">
+					<h5>Nosotros</h5>
+					<p>Nuestros productos están esparcidos por todo el mundo, repartiendo desde nuestra propia fábrica en PERU.</p>
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2 blok-link">
+					<h5>Contactenos</h5>
+					
+				</div>
+				<div class="col-6 col-sm-4 col-lg-2 blok-link">
+					<h5>Ayuda</h5>
+					
+				</div>
+				<div class="col-12 col-sm-4 col-lg-3 blok-link">
+					<h5>POLITICA DE PRIVACIDAD</h5>
+				
+				</div>
+				<div class="col-12 col-sm-6 col-lg-2 footer-subscribe">
+					<h5>suscribete</h5>
+					<form action="/" class="subscribe-form">
+						<input type="email" name="subscribe" placeholder="Correo">
+						<input type="submit" value="enviar">
+					</form>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-2">
+						<a href="index.html" class="logo footer-logo"><img src="img/logo3.png" alt="logo"></a>
+					</div>
+					<div class="col-12 col-md-8">
+						<ul class="footer-menu">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="help.html">Ayuda</a></li>
+							<li><a href="services.html">Nosotros</a></li>
+							<li><a href="sitemap.html">Sitemap</a></li>
+							<li><a href="contacto.html">Contactenos</a></li>
+							<li><a href="contacts.html">Politica de Privacidad</a></li>
+						</ul>
+					</div>
+					<div class="col-12 col-md-2">
+						<ul class="soc-link">
+							<li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://twitter.com/mtcradiotv"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="copyright">
+				<p><a class="rovadex" href="https://rovadex.com" target="_blank"> MTCbroadcast </a> © <p id="Year"> </p> . <a href="pravicy-policy.html" target="_blank">Derechos Reservados</a></p>
+			</div>
+		</div>
+	</footer>
+	<!--============== FOOTER END ==============-->
+
+	<!--================ TO TOP ================-->
+	<a class="to-top" href="#home">
+		<i class="fa fa-chevron-up" aria-hidden="true"></i>
+		<span>
+			<img src="img/icon-tab-1.svg" alt="">
+		</span>
+	</a>
+	<!--============== TO TOP END ==============-->
+
+	<!-- =============== STYLE =============== -->
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--=============== TEMPLATE SCRIPT ===============-->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4fusEY9kSwNHgtK8KOgyoTsyP5Tb2NXo"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>

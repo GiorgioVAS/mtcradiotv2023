@@ -1,0 +1,27 @@
+.prod-tabs2{
+	display: flex;
+	max-width: 1260px;
+	margin: 0 auto 40px;
+	justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+.prod-tabs2 .item{
+	width: 25%;
+	margin-right: 20px;
+}
+.prod-tabs2 .item:last-child{
+	margin-right: 0;
+}
+.prod-tabs2{
+    flex-wrap: wrap;
+    margin: -15px -15px 15px;
+}
+.prod-tabs2 .item {
+    width: 33.33%;
+    padding: 15px;
+    margin-right: 0;
+}
+.prod-tabs2{
+    margin: 0 0 30px;
+}
